@@ -39,6 +39,11 @@ li {
   align-items: center;
 }
 
+.arbol {
+  height: 400px;
+  width: 500px;
+}
+
 @media (min-width: 1200px) {
   body {
     margin-left: 400px;
