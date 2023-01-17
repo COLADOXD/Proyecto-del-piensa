@@ -17,8 +17,17 @@ body {
   margin: 40px;
 }
 
-h3,
+h3 {
+  color: red;
+}
+
 p {
+  color: blue;
+}
+
+h3,
+p,
+li {
   text-align: left;
 }
 
@@ -28,4 +37,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 1200px) {
+  body {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
 }
