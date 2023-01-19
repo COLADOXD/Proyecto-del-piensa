@@ -5,40 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Piensa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" />
+    <style type="text/tailwindcss">
+      p {
+        @apply font-serif;
+      }
+      h2 {
+        @apply font-sans;
+        @apply text-center;
+        @apply text-4xl;
+        @apply m-4;
+      }
+      h3 {
+        @apply text-2xl;
+        @apply font-sans;
+      }
+    </style>
   </head>
-  <body>
-    <section class="conteiner">
-      <h1>DISEÑO DEL PIENSA</h1>
-      <p>
-        Titulo: PAGIAN WEB INFORMATIVA DESARROLLADA POR LENGIAJE DE PROGRAMACION
+  <body class="p-5 flex place-content-center">
+    <section class="max-w-lg">
+      <h1 class="text-center font-sans text-5xl">DISEÑO DEL PIENSA</h1>
+      <h2 class="font-sans text-center text-2xl">
+        Titulo: PAGINA WEB INFORMATIVA DESARROLLADA POR LENGIAJE DE PROGRAMACION
         DE JAVASCRIPT PARA AUTOMATIZAR LOS SERVICIOS DE LA EMPRESA
+      </h2>
+      <img src="./asstes/gestion-equipos-eficientes_proyectos.jpg" alt="" />
+      <p>
+        Integrantes: <br />
+        Mateo Chacon, David Pozo, Kevin Avila, Jhon Godoy
       </p>
-      <p>Integrantes: Chacon Mateo, David Pozo, Kevin Avila, Jhon Godoy</p>
       <h2>Resumen</h2>
       <p>
-        El siguiente proyecto se trata sobre la parte de una problemática muy
-        común a nivel de empresas, dicha problemática tiene que ver con la
-        gestión y difusión de información de los mismos, independientemente del
-        tamaño de la empresa, esta trata de mantenerse competitiva y sobre todo
-        mantener un nivel de información que le garantice la recuperación de la
-        inversión y lógicamente una ganancia dentro de los rangos permisibles.
+        <span class="text-3xl font-bold">E</span>l siguiente proyecto se trata
+        sobre la parte de una problemática muy común a nivel de empresas, dicha
+        problemática tiene que ver con la gestión y difusión de información de
+        los mismos, independientemente del tamaño de la empresa, esta trata de
+        mantenerse competitiva y sobre todo mantener un nivel de información que
+        le garantice la recuperación de la inversión y lógicamente una ganancia
+        dentro de los rangos permisibles.
+        <br />
+        <br />
         La propuesta de solución planteada va a consistir en la creación y la
         implementación de una Página web con lenguaje de programación JavaScript
         utilizando también un lenguaje de etiquetas HTML y un lenguaje de
         estilos CSS, el cual va a ser desarrollado para que la información de la
         empresa sea más accesible y concisa para los clientes a su vez dando
-        información sobre los productos y servicios que da la empresa. Para esto
-        se ha de comenzar haciendo la estructura de la página usando las
-        herramientas de Visual Studio Code, un programa que se utiliza para la
-        creacion de codigos HTML, además de aplicar las reglas de estilo CSS,
+        información sobre los productos y servicios que da la empresa. <br />
+        <br />
+        Para esto se ha de comenzar haciendo la estructura de la página usando
+        las herramientas de Visual Studio Code, un programa que se utiliza para
+        la creacion de codigos HTML, además de aplicar las reglas de estilo CSS,
         con la implementación del “media querie” para añadir responsividad a la
         página, pero para tener una mejor idea de cómo queremos que quede
         nuestra página web, se utilizará el programa Figma, gracias a este
-        programa podremos diseñar el diseño de como se verá. También se
-        implementará el uso de GitHub, el cual se usará como un medio para
-        compartir los cambios realizados desde diferentes máquinas del código
-        HTML entre los miembros del equip
+        programa podremos diseñar el diseño de como se verá. <br />
+        <br />
+        También se implementará el uso de GitHub, el cual se usará como un medio
+        para compartir los cambios realizados desde diferentes máquinas del
+        código HTML entre los miembros del equip
       </p>
       <h3>Tema</h3>
       <p>
@@ -90,7 +115,7 @@
         Experiencias realizadas anteriormente para resolver el problema
         identificado.
       </p>
-      <h3>-Internacional:</h3>
+      <h3>Internacional:</h3>
       <p>
         Implementación de un plan marketing digital para incrementar el nivel
         ventas en una empresa de transporte interprovincial del Perú (Machaca
@@ -100,7 +125,7 @@
         la publicidad de las redes sociales, posicionamiento en buscadores y
         sitio web de la empresa.
       </p>
-      <h3>-Nacional:</h3>
+      <h3>Nacional:</h3>
       <p>
         Desarrollo e implementación de una página web con Chatbot, para el
         proceso de solicitud de exámenes de laboratorio de la empresa “SANLAC
@@ -110,7 +135,7 @@
         uso, los procesos y participantes que intervienen en el modelo de
         negocio de la entidad médica, donde se crea el sitio web.
       </p>
-      <h3>-Local:</h3>
+      <h3>Local:</h3>
       <p>
         Creación de la página web para la Carrera de Comunicación de la
         Universidad Politécnica Salesiana sede Cuenca (Ortiz Siguencia, 2020) El
@@ -126,11 +151,17 @@
         concisa y ordenada a la clientela en general. Para ello se han fijado
         varios objetivos para averiguar si es factible realizar el proyecto.
         <br />
+        <br />
         1: Totalmente de acuerdo <br />
+        <br />
         2: De acuerdo <br />
+        <br />
         3: Ni de acuerdo ni en desacuerdo <br />
+        <br />
         4: En desacuerdo <br />
+        <br />
         5: Totalmente en desacuerdo <br />
+        <br />
       </p>
       <img class="imge" src="./asstes/primero.png" alt="" />
       <img class="imge" src="./asstes/Segundo.png" alt="" />
@@ -141,7 +172,7 @@
 
       <h3>Cuál es la importancia de la investigación, según (Robles, 2020)</h3>
       <p>
-        Su importancia está en que la empresa Estrual no tiene una página web
+        su importancia está en que la empresa Estrual no tiene una página web
         que le permita mostrar su contenido de una forma más personalizada, la
         investigación trata de cubrir ese ámbito.
       </p>
@@ -200,6 +231,7 @@
 
       <h3>2.1 Marco Teórico</h3>
       <br />
+      <br />
       <p>
         El marco teórico es la fundamentación epistemológica dentro de la cual
         se enmarcará la investigación que va a realizarse. Es decir, es una
@@ -228,13 +260,16 @@
         que se utilizarán y los procedimientos empleados para la obtención y
         análisis de datos.
         <br />
+        <br />
         Esta sección debe incluir toda la información necesaria para que
         cualquier otro investigador pueda replicar el estudio sin dificultades.
         Se debe mencionar explícitamente qué actividades se realizarán para
         cumplir con los objetivos planteados.
         <br />
+        <br />
         Para el desarrollo de la aplicación web para el impulso de los
         emprendimientos en la ciudad de Cuenca, se utilizó la metodología Scrum
+        <br />
         <br />
         Etapa I Inicio:
       </p>
@@ -246,10 +281,12 @@
         modelo teórico propuesto. Es la parte más importante ya que aquí se
         presenta la novedad y el aporte del autor o autores.
         <br />
+        <br />
         Una vez que el estudiante ha investigado sobre su variable
         independiente, es decir su objeto de estudio, está en la capacidad de
         proponer una solución para eliminar o aliviar el problema, esta solución
         que él recomienda es lo que se conoce como propuesta.
+        <br />
         <br />
         Nota: La propuesta debe ser planteada y desarrollada a nivel
         demostrativo o prototipo.
@@ -268,6 +305,7 @@
         realizado. Es importante mencionar los objetivos y resultados
         alcanzados.
         <br />
+        <br />
         Cada conclusión puede comprender una síntesis de cada tema o capítulo.
       </p>
 
@@ -277,6 +315,7 @@
         ¿Cuáles recomendaciones pueden darse para ayudar a solucionar el
         problema?
 
+        <br />
         <br />
         Son de significativa importancia, se realizan en torno a los resultados
         del trabajo, pueden reflejar situaciones inconclusas o acciones futuras
@@ -301,15 +340,18 @@
         Consultado en: https://www.salud.gob.ec/coronavirus-covid-19/ en fecha
         27 de mayo de 2020.
         <br />
+        <br />
         Guillen Peñarreta, J. P., & Vizhñay Aguilar, C. F. (2016). Gafas
         especiales para detección de obstáculos con sistema de ubicación en caso
         de emergencia y ayuda de reconocimiento de billetes para personas con
         discapacidad visual (Bachelor's thesis).
         <br />
+        <br />
         Espada, J. P., Orgilés, M., Piqueras, J. A., & Morales, A. (2020). Las
         buenas prácticas en la atención psicológica infanto-juvenil ante el
         COVID-19. Clínica y Salud. Avance online.(Revisado 3 mayo 2020).
         https://doi. org/10.5093/clysa2020a14.
+        <br />
         <br />
         Casero-Ripollés, A. (2020). Impacto del Covid-19 en el sistema de
         medios. Consecuencias comunicativas y democráticas del consumo de
